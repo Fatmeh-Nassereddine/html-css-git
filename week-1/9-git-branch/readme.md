@@ -23,7 +23,7 @@ You should see the following printed to the terminal, which tells you that you c
 Enter the following command into your terminal to create a new branch:
 
 ```
-git checkout -b red_links
+
 ```
 
 Enter `git branch` to see if the branch was created. You should see the following:
