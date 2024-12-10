@@ -1,1 +1,123 @@
 /* Add your own CSS code below */
+/*Heart color*/
+span.heart {
+  color: #c85308;
+}
+
+/*Hero Text Size*/
+@media screen and (min-width: 992px) {
+  .hero__title {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+}
+
+/* Navigation Menu*/
+.main-nav__list {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*Header*/
+.site-header {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+}
+
+.main-nav__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Media query for screens wider than 767px */
+@media (min-width: 768px) {
+  .site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+
+  .site-header__title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .main-nav {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .main-nav__list {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .site-search {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .site-search__input {
+    flex-grow: 1;
+    max-width: 200px;
+  }
+}
+
+/*views*/
+.views {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.view-list__item {
+  margin-right: 10px;
+}
+
+.views__all {
+  margin-left: auto;
+}
+
+@media (max-width: 767px) {
+  .views {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .view-list__item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/*Text Formatting*/
+/* maximum width of the article */
+.main-article {
+  max-width: 50em;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* center the article  */
+.site-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* Additional style to ensure readability */
+.main-article p {
+  margin-bottom: 1.5em;
+}
