@@ -20,3 +20,7 @@ You should not be able to type anything in the Country field. And the delivery o
 **Extra Credit**
 
 What's the difference between `readonly` and `disabled`? See if you can understand this [question and answer](https://stackoverflow.com/questions/7730695/whats-the-difference-between-disabled-disabled-and-readonly-readonly-for-ht).
+
+Disabled means that no data from that form element will be submitted when the form is submitted. Read-only means any data from within the element will be submitted, but it cannot be changed by the user.
+Disabled: The data from the field won't be submitted because the field is considered "inactive."
+Readonly: The data from the field will be submitted, even though the user cannot modify it.
